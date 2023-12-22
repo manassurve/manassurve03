@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>MANAS Portfolio</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+    .container {
+      display: inline-block;
+      cursor: pointer;
+    }
+    
+    .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: #333;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+    
+    .change .bar1 {
+      transform: translate(0, 11px) rotate(-45deg);
+    }
+    
+    .change .bar2 {opacity: 0;}
+    
+    .change .bar3 {
+      transform: translate(0, -11px) rotate(45deg);
+    }
+  
+</style>
+</head>
+<body>
+    <!--HEADER START-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        
+            <table width="1500px">
+<tr>
+    <!--menu icon START-->
+        <td width="200px">
+          <a class="navbar-brand" href="#">
+<div class="container" onclick="myFunction(this)" width="35px">
+    <div class="bar1" width="35px"></div>
+    <div class="bar2" width="35px"></div>
+    <div class="bar3" width="35px"></div>
+  </div>
+  
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+  <!--menu icon FINISH-->  </a>
+</td>
+        <td>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Trade</a>
+              </li>
+            </td>
+            <td>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Circles</a>
+                    </li>
+                  </td>
+                  <td>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#"><button><img width="20" height="20" src="https://img.icons8.com/ios/50/marker--v1.png" alt="marker--v1"/> Andheri, Mumbai</button></a>
+                        </li>
+                      </td>
+              <td>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Electronics
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+              </td>
+
+              <td width="500px">
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Cars" aria-label="Search">
+                </form>
+
+              </td>
+              <td>
+                <a class="navbar-brand" href="#"> <img width="20" height="20" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/> </a>
+              </td>
+              <td>
+                <a class="navbar-brand" href="#"></a> <button type="button" class="btn btn-info" style="color: aliceblue;">Create Crircle</button> </a>
+              </td>
+              <td>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sign In
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+              </td>
+        </tr>
+        </table>
+        </div>
+      </nav>
+    <!--HEADER END-->
+    <table width="1500px" style="margin:auto;">
+<tr>
+    <!--TOP row start-->
+    <td>
+<table style="margin:auto;" >
+    <tr>
+        <td><img src="images/portfolio bg.jpg" width="1300px"></td>
+    </tr>
+    <tr>
+        <td style="font-size:20px; text-align: center;"><b>Manas Surve</b></td>
+    </tr>
+    <tr>
+        <td style="font-size:15px; text-align: center; color: gray;">Mumbai, India</td>
+    </tr>
+    <tr>
+        <td height="10px"></td>
+    </tr>
+    <tr>
+        <td style="font-size:10px; text-align: center; ;">I am a communication design student at at ISDI, Mumbai<br>
+        
+        Currently, I am in the second year and I have worked on projects related to graphic design, UI & UX... <b>Read More</b></td>
+    </tr>
+    <tr>
+        <td height="50px"></td>
+    </tr>
+</table>
+    </td>
+</tr>
+    <!--TOP row end-->
+<!--ROW 2 START-->
+<tr>
+    <td>
+        
+<table style="border: 1px solid rgb(194, 194, 194); padding: 20px;">
+    <tr>
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-light">20<br><a class="text">Items Trading</class></button></td>
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-light">1023<br><a class="text">Social Circles</a></button></td>
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-light">450<br><a class="text">Followers</a></button></td>
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-light">230<br><a class="text">Following</a></button></td>
+        <td width="350px"></td>   
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-danger">Chat</button></td>
+        <td width="20px" style="text-align: center;"><button type="button" class="btn btn-outline-info">Follow</button></td>
+        <td width="100px" style="text-align: center;"><img width="50" height="50" src="images/profile pic.jpg" alt="ellipsis"/></td>   
+
+    </tr>
+</table>
+
+    </td>
+</tr>
+<!--ROW 2 END-->
+
+<!--Row 3 START-->
+<tr>
+    <td>
+<table style=" background-color: rgb(227, 227, 227);">
+    <tr>
+        <td height="30px"></td>
+    </tr>
+    <tr>
+        <td style="font-size: 20px;" width="1300px"><b>My Work </b></td>
+        <td style="font-size: 10px; color: gray" width="100px">Sort by</td>
+        <td style="font-size: 10px;" width="100px">
+
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Newest first
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                      
+          </td>
+    </tr>
+    </table>
+    <table style=" background-color: rgb(227, 227, 227); margin:auto" width="1500px">
+    <tr>
+        <td height="30px"></td>
+    </tr>
+    <tr>
+        <td>
+            <table style="background-color: white; margin:auto"  width="225px">
+                <tr>
+                    <td colspan="2" style="text-align: center;"><img src="images/post 1.jpg" width="220px"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>VR GLASS MAN </b></td>
+                </tr>
+                <tr>
+                    <td><a class="text">2 hrs ago by </class></td>
+                    <td style="text-align: right;"><a class="text2">MANAS SURVE</class></td>
+                </tr>
+                <tr>
+                    <td height="15px"></td>
+                </tr>
+                <tr>
+                  
+                    <td colspan="2" style="text-align: right;"><a class="text">done on illustrator</a></td>
+                </tr>
+
+                
+            </table>
+        </td>
+    
+
+    
+        <td>
+            <table style="background-color: white; margin:auto"  width="230px">
+              <tr>
+                <td colspan="2" style="text-align: center;"><img src="images/post 2.jpg" width="220px"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>RUSH SPOTIFY POSTER</b></td>
+            </tr>
+            <tr>
+                <td><a class="text">3 hrs ago by </class></td>
+                <td style="text-align: right;"><a class="text2">MANAS SURVE</class></td>
+            </tr>
+            <tr>
+                <td height="15px"></td>
+            </tr>
+            <tr>
+              
+                <td colspan="2" style="text-align: right;"><a class="text">done on illustrator</a></td>
+            </tr>
+                
+            </table>
+        </td>
+
+        <td>
+            <table style="background-color: white; margin:auto" width="230px">
+              <tr>
+                <td colspan="2" style="text-align: center;"><img src="images/post 3.jpg " width="220px"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>FURRY TYPO LETTER</b></td>
+            </tr>
+            <tr>
+                <td><a class="text">4 hrs ago by </class></td>
+                <td style="text-align: right;"><a class="text2">MANAS SURVE</class></td>
+            </tr>
+            <tr>
+                <td height="15px"></td>
+            </tr>
+            <tr>
+              
+                <td colspan="2" style="text-align: right;"><a class="text">done on illustrator</a></td>
+            </tr>
+                 
+            </table>
+        </td>
+
+        <td>
+            <table style="background-color: white; margin:auto"  width="230px">
+              <tr>
+                <td colspan="2" style="text-align: center;"><img src="images/post 4.jpg" width="220px"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>NO LONGER HUMAN BOOK - cover</b></td>
+            </tr>
+            <tr>
+                <td><a class="text">5 hrs ago by </class></td>
+                <td style="text-align: right;"><a class="text2">MANAS SURVE</class></td>
+            </tr>
+            <tr>
+                <td height="15px"></td>
+            </tr>
+            <tr>
+              
+                <td colspan="2" style="text-align: right;"><a class="text">done on photoshop</a></td>
+            </tr>
+                
+                
+            </table>
+        </td>
+    </tr>
+</table>
+
+    </td>
+</tr>
+<!--Row 3 END-->
+    </table>
+        </body>
+</html>
